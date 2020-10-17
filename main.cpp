@@ -20,6 +20,7 @@ int main()
 
              if(sqrt(pow(xo,2)+pow(yo,2))-sqrt(pow(xdi,2)+pow(ydi,2))<=0.025*d){
                  angulod=atan(yo/xo);
+                 t++;
 
 
              }
